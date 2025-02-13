@@ -24,20 +24,30 @@ To Contribute to Keploy Student Program Website, please follow the following ste
 git clone https://github.com/keploy/student-program
 
 ```
-3. Install the required dependencies using:
+3. Install pnpm package manager globally:
 ```
-npm install
+npm install -g pnpm
 ``` 
-
-4. Once the required packages are installed, run the following command to host this project on localhost:
+4. Install all the packages:
 ```
-npm start
+pnpm install
+
+```
+5. Once the required packages are installed, run the following command to build the HTML, CSS, Javascript files:
+```
+pnpm run build
 ```
 
-5. Make the desired changes
+6. Run this following command to start the application on localhost:
+```
+pnpm run start
+```
 
+(Alternatively you can use ``pnpm run dev`` to skip step 5, 6 and start a local dev environment.
 
-7. Add, commit & push the changes, using:
+7. Make your desired changes.
+ 
+8. Add, commit & push the changes, using:
 
 ``` bash
 git add .
